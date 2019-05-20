@@ -1,0 +1,83 @@
+body{
+  margin: 0;
+  font-family: verdana,sans-serif;
+}
+.slideshow-container{
+  width: 800px;
+  position: relative;
+  margin: auto;
+}
+.slides{
+  display:none;
+}
+
+.number {
+  position:absolute;
+  padding: 8px 12px;
+  color: white;
+}
+.text{
+  text-align: center;
+  font-size: 15px;
+  position: absolute;
+  width: 100%;
+  padding: 8px 16px;
+  bottom: 22px;        /*det ændrer textens placering*/
+  color: white;
+  font-weight: bold;
+}
+.prev,.next{
+  position: absolute;
+  bottom: 225px;;
+  color: #f2f2f2;
+  font-weight: bold;
+  padding: 10px 10px;
+  font-size: 40px;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+.next{
+  border-radius: 3px 0 0 0;
+  right: 0;
+}
+.prev:hover, .next:hover{
+  background: rgba(0,0,0,0.8);
+}
+
+.dots {
+  width:13px;
+  height: 13px;
+  display: inline-block;
+  background: gray;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dotscenter {
+  text-align: center;
+}
+
+
+.fade{
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@keyframes fade{
+  from{opacity: 0.4}
+  to{opacity:1}
+}
+
+.active ,.dots:hover{
+  background: #333;
+}
+
+
+
+/* VIDEO CSS */
+@video_sektion { background-image: url(resources/Lunde_Station.jpg); background-size: cover; width: auto; height: 600px; border: 1px solid #000; }
+@video_title{ margin-left: 105px; margin-top: 15px; color: darkslategrey; font-size: 3vw; font-family: "Arial Black", Gadget, sans-serif;}
+@video_description{ display: block; position: static; margin-left: 950px; margin-top: -10px; font-size: 1vw; font-family: Tahoma, Geneva, sans-serif;}
+@video_kasse{ width:810px; background:#000; margin-left: 87px; margin-top: -160px;}
+@video_kontrol{ background: #333; padding:10px;}
