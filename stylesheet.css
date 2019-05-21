@@ -3,7 +3,7 @@ body{
   font-family: verdana,sans-serif;
 }
 .slideshow-container{
-  width: 800px;
+  width: 900px;
   position: relative;
   margin: auto;
 }
@@ -28,7 +28,7 @@ body{
 }
 .prev,.next{
   position: absolute;
-  bottom: 225px;;
+  bottom: 250px;
   color: #f2f2f2;
   font-weight: bold;
   padding: 10px 10px;
