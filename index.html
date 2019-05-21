@@ -3,23 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <title>Flyt til Lunde</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <script src="script.js" defer></script>
 </head>
-<style>
-</style>
+
 
 <header>
- <div id="lundebanner" style="width:auto;height:260px;border:1px solid #000;">
+ <div id="lundebanner">
   <div><img src="lundebanner.png" alt="lundebanner.png"></div>
     </div>
 </header>
-  
+
 <body>
 //værdier_slide
- <div id="fællesskab" style="width:auto;height:1100px;border:1px solid #000;background-color:#3B3F43;">
+ <div id="fællesskab">
+   <!--slideshow container-->
+   <div class="slideshow-container">
+     <div class="slides fade">
+     <div class="number">1 / 4</div>
+     <div><img src="slider1.jpg"></div>
+     <div class="text">Fællesskab</div>
+   </div>
+
+
+     <div class="slides">
+     <div class="number">2 / 4</div>
+     <div><img src="slider2.jpg"></div>
+     <div class="text">Text 1</div>
+   </div>
+
+
+     <div class="slides">
+     <div class="number">3 / 4</div>
+     <div><img src="slider3.jpg"></div>
+     <div class="text">Text 1</div>
+   </div>
+
+
+     <div class="slides">
+     <div class="number">4 / 4</div>
+     <div><img src="slider4.jpg"></div>
+     <div class="text">Text 1</div>
+   </div>
+
+   <a class="prev" onclick="plusIndex(-1)">&#10094;</a> <!--&#10094 giver en pil til venstre-->
+   <a class="next" onclick="plusIndex(+1)">&#10095;</a> <!--&#10095 giver en pil til højre-->
+
+   </div>
+   <br/>
+
+   <div class="dotscenter">
+   <div>
+     <span class="dots" onclick="currentSlide(1)"></span>
+     <span class="dots" onclick="currentSlide(2)"></span>
+     <span class="dots" onclick="currentSlide(3)"></span>
+     <span class="dots" onclick="currentSlide(4)"></span>
+   </div>
+   </div>
+
  </div>
-  
+
 //video
 <div id="video_sektion">
  <div id="video_title">
@@ -41,6 +84,6 @@ Se videoen for at se hvad Lunde er for en størrelse;<br>hvem vi er, hvor vi bor
 </div>
 
 //kommentarfelt
- <div id="kommentarfelt" style="width:auto;height:840px;border:1px solid #000;background-color:#3B3F43;">
+ <div id="kommentarfelt" style="width:auto;height:840px;border:1px solid #000;background-color:#lightgray;">
  </div>
 </body>
