@@ -6,6 +6,7 @@ body{
   width: 900px;
   position: relative;
   margin: auto;
+  margin-top: 20px;
 }
 .slides{
   display:none;
