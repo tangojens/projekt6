@@ -128,6 +128,20 @@ body{
     padding:10px;
 }
 
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+	position: fixed;
+	top: 0;
+
+}
+
+.progress-bar {
+  height: 8px;
+  background-color: red;
+  width: 0%;
+}
 .kommentarfelt{
 	margin: 20%;
 }
