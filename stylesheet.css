@@ -143,6 +143,8 @@ body{
   background-color: red;
   width: 0%;
 }
-.kommentarfelt{
-	margin: 20%;
+
+.comments{
+	background-color:#1b5e20;
+	text-align: center;
 }
