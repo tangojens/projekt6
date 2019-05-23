@@ -3,13 +3,15 @@ body{
   font-family: verdana,sans-serif;
 }
 .slideshow-container{
-  width: 900px;
+  width: 1200px;
   position: relative;
   margin: auto;
   margin-top: 20px;
 }
 .slides{
   display:none;
+
+
 }
 
 .number {
