@@ -1,25 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Flyt til Lunde</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content=" En hjemmeside som skal promovere Lunde og gøre den mere attraktiv for unge mennesker.">
+  <meta name="keywords" content="Unge med børn,Lunde, lille by, flytte, sammenhold, fællesskab, kultur,frihed, hjemmeside ">
+  <meta name="author" content="Morten Westergaard, Oskar Hjorth, Daniel Duvier">
+  <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <script src="script.js" defer></script>
+	<script src="https://www.powr.io/powr.js?platform=html" defer></script>
 </head>
-<style>
-</style>
+
 
 <header>
- <div id="lundebanner" style="width:auto;height:260px;border:1px solid #000;">
+	<div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
+	
+ <div id="lundebanner">
   <div><img src="lundebanner.png" alt="lundebanner.png"></div>
     </div>
 </header>
-  
+
 <body>
-//værdier_slide
- <div id="fællesskab" style="width:auto;height:1100px;border:1px solid #000;background-color:#3B3F43;">
+<!--værdier-slide-->
+ <div id="fællesskab">
+   <!--slideshow container-->
+   <div class="slideshow-container">
+     <div class="slides fade">
+     <div class="number">1 / 4</div>
+     <div><img src="slider1.jpg"></div>
+     <div class="text">Fællesskab</div>
+   </div>
+
+
+     <div class="slides">
+     <div class="number">2 / 4</div>
+     <div><img src="slider2.jpg"></div>
+     <div class="text">Text 1</div>
+   </div>
+
+
+     <div class="slides">
+     <div class="number">3 / 4</div>
+     <div><img src="slider3.jpg"></div>
+     <div class="text">Text 1</div>
+   </div>
+
+
+     <div class="slides">
+     <div class="number">4 / 4</div>
+     <div><img src="slider4.jpg"></div>
+     <div class="text">Text 1</div>
+   </div>
+
+   <a class="prev" onclick="plusIndex(-1)">&#10094;</a> <!--&#10094 giver en pil til venstre-->
+   <a class="next" onclick="plusIndex(+1)">&#10095;</a> <!--&#10095 giver en pil til højre-->
+
+   </div>
+   <br/>
+
+   <div class="dotscenter">
+   <div>
+     <span class="dots" onclick="currentSlide(1)"></span>
+     <span class="dots" onclick="currentSlide(2)"></span>
+     <span class="dots" onclick="currentSlide(3)"></span>
+     <span class="dots" onclick="currentSlide(4)"></span>
+   </div>
+   </div>
+
  </div>
-  
+
 //video
 <div id="video_sektion">
  <div id="video_title">
@@ -40,7 +92,12 @@ Se videoen for at se hvad Lunde er for en størrelse;<br>hvem vi er, hvor vi bor
  </div>
 </div>
 
-//kommentarfelt
- <div id="kommentarfelt" style="width:auto;height:840px;border:1px solid #000;background-color:#3B3F43;">
- </div>
+<!--Kommentar-->
+	<div class="comments">
+		<h3>Har du noget på hjerte?</h3>
+	<div class="powr-comments" id="95b4a047_1558542106"></div>
+		</div>
+
 </body>
+
+</html>
