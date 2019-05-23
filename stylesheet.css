@@ -80,6 +80,13 @@ body{
 }
 
 
+#dscrpt_box {
+  width:auto;
+  height:350px;
+  border:1px solid #000;
+  background-color:darkslategray;
+}
+
 /*Lundebanner*/
 #lundebanner {
   width:auto;
@@ -99,10 +106,43 @@ position: absolute;
   font-size: 85px;
 }
 
+.bottom-left {
+  position: absolute;
+  top: 1680px;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 20px;
+  color: beige;
+    text-align: left;
+}
+
+.bottom-center {
+  position: absolute;
+  top: 1680px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 20px;
+  color: beige;
+    text-align: left;
+}
+
+.bottom-right {
+  position: absolute;
+  top: 1680px;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 20px;
+  color: beige;
+    text-align: left;
+}
+
 /*slideshow kasse*/
 #fællesskab {
   width:auto;
-  height:1100px;
+  height:720px;
   border:1px solid #000;
   background-color:lightgray;
 }
