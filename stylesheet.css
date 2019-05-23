@@ -80,13 +80,6 @@ body{
 }
 
 
-#dscrpt_box {
-  width:auto;
-  height:350px;
-  border:1px solid #000;
-  background-color:darkslategray;
-}
-
 /*Lundebanner*/
 #lundebanner {
   width:auto;
@@ -95,6 +88,21 @@ body{
   background-image: url(resources/banner_img.jpg);
   background-size: cover;
   text-align: center;
+}
+
+
+.column-layout {
+  height: 400px;
+  background-color: #fff;
+  margin: 20px 20px 20px 20px;
+  line-height: 1.50;
+  padding: 25px ;
+  display: flex;
+}
+
+.left-column, .middle-column, .right-column {
+  width: 30%;
+  padding: 40px;
 }
 
 .centered {
@@ -144,7 +152,7 @@ position: absolute;
   width:auto;
   height:720px;
   border:1px solid #000;
-  background-color:lightgray;
+  background-color:#fff;
 }
 
 /*video*/
