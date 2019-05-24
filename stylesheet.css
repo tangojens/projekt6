@@ -162,6 +162,7 @@ position: absolute;
     width: auto;
     height: 600px;
     border: 1px solid #000;
+	
 }
 
 #video_title{
@@ -176,8 +177,8 @@ position: absolute;
     position: static;
     margin-left: 950px;
     margin-top: -10px;
-    font-size: 1vw;
-    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 16px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 }
 
 #video_kasse{
@@ -210,4 +211,5 @@ position: absolute;
 .comments{
 	background-color:#1b5e20;
 	text-align: center;
+	font-size: 19px;
 }
